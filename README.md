@@ -11,30 +11,5 @@ Guthaben-System kombiniert.
 - Validierte Eingaben — ungültige Werte werden abgefangen, kein Absturz
 - Spiel endet automatisch, wenn das Guthaben aufgebraucht ist
 
-## Projektstruktur
 
-```
-Program.cs          Einstiegspunkt, Hauptmenü-Loop
-Player.cs            Guthaben-Verwaltung
-InputHelper.cs        Validierte Konsoleneingaben
-Games/
-  IGame.cs            Gemeinsames Interface für alle Spiele
-  Blackjack.cs
-  Roulette.cs
-Cards/
-  Card.cs
-  Deck.cs
-```
 
-## Ausführen
-
-```bash
-dotnet run
-```
-
-Voraussetzung: .NET 8 SDK.
-
-## Hintergrund
-
-Entstanden im Rahmen meiner Ausbildung zum Informatiker EFZ
-(Applikationsentwicklung) an der IMS Kantonsschule Baden.
